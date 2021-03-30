@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/*------------------------------------*\
+     #COLORS
+ \*------------------------------------*/
+
+/**
+ * Brand Colors
+ */
+
+:root {
+  --color-brand-dark-cyan: hsl(185, 75%, 39%);
+  --color-brand-very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --color-brand-dark-grayish-blue: hsl(227, 10%, 46%);
+}
+
+/**
+  * Neutral Colors
+  */
+
+:root {
+  --color-neutral-white: hsl(0, 0%, 100%);
+  --color-neutral-black: hsl(0, 0%, 0%);
+  --color-neutral-dark-gray: hsl(0, 0%, 59%);
+}
+
+/*------------------------------------*\
+    #BODY
+\*------------------------------------*/
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1.125rem;
+  background: var(--color-brand-dark-cyan);
+  line-height: 1.6;
+  position: relative;
+}
+
+.bg-img-top {
+  position: absolute;
+  width: 977;
+  height: 977;
+  left: -525.29px;
+  top: -519.16px;
+}
+
+.bg-img-bottom {
+  position: absolute;
+  width: 978px;
+  height: 976px;
+  left: 451.29px;
+  top: 362px;
+}
+
+.card {
+  background: var(--color-neutral-white);
+  width: 350px;
+  min-height: 374px;
+  box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+  border-radius: 15px;
+  position: relative;
+}
+
+.card__bg-pattern {
+  border-radius: 15px 15px 0 0;
+}
+
+.card__avatar-img {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  left: calc(50% - 96px / 2);
+  top: calc(50% - 96px / 2 - 47px);
+  border-radius: 100px;
+  border: 5px solid var(--color-neutral-white);
+}
+
+.card__details {
+  position: absolute;
+  left: 30.86%;
+  right: 30.57%;
+  top: 56.68%;
+  bottom: 37.17%;
+}
+
+.card__details-name {
+  font-weight: 700;
+}
+
+.card__details-age {
+  color: #6b7082;
+  font-weight: normal;
+}
+
+.card__details-location {
+  font-size: 0.875rem;
+  font-weight: normal;
+  text-align: center;
+  color: #6b7082;
+}
+
+.card__divider {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 76.2%;
+  bottom: 23.53%;
+  background: #e8e9ec;
+}
+
+.card__stats {
+  position: absolute;
+  width: 249px;
+  height: 40px;
+  left: 47px;
+  top: 310px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__stats-group {
+  text-align: center;
+}
+
+.card__stats-number {
+  font-weight: 700;
+  color: var(--color-brand-very-dark-desaturated-blue);
+}
+
+.card__stats-label {
+  font-size: 0.625rem;
+  color: var(--color-brand-dark-grayish-blue);
+}
