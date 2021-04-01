@@ -1,0 +1,124 @@
+/*------------------------------------*\
+    #RESET
+\*------------------------------------*/
+
+/**
+ * Border-Box http:/paulirish.com/2012/box-sizing-border-box-ftw/
+ */
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+/**
+ * 1) Zero out margins and padding for elements
+ */
+html,
+body,
+div,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+ol,
+ul,
+li,
+form,
+legend,
+label,
+table,
+header,
+footer,
+nav,
+section,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+/**
+ * 1) Set HTML5 elements to display: block
+ */
+header,
+footer,
+nav,
+section,
+article,
+figure {
+  display: block;
+}
+
+/*------------------------------------*\
+    #LISTS
+\*------------------------------------*/
+
+/**
+ * 1) List base styles
+ */
+
+/**
+  * Remove list styles from unordered and ordered lists
+  */
+ol,
+ul {
+  list-style: none;
+}
+
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
+
+/**
+ * Button and submit inputs reset
+ * 1) These should be styled using c-btn
+ */
+button {
+  cursor: pointer;
+}
+
+/*------------------------------------*\
+    #MEDIA
+\*------------------------------------*/
+
+/**
+ * Responsive image styling
+ * 1) Allows for images to flex with varying screen size
+ */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*------------------------------------*\
+    #TABLES
+\*------------------------------------*/
+
+/**
+ * Table
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+/**
+ * Table header cell
+ */
+th {
+  text-align: left;
+}
+
+/**
+ * Table row
+ */
+tr {
+  vertical-align: top;
+}

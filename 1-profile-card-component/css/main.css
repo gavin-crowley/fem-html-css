@@ -42,18 +42,26 @@ body {
 
 .bg-img-top {
   position: absolute;
-  width: 977;
-  height: 977;
-  left: -525.29px;
-  top: -519.16px;
+  top: -80%;
+  left: -15%;
 }
 
 .bg-img-bottom {
   position: absolute;
-  width: 978px;
-  height: 976px;
-  left: 451.29px;
-  top: 362px;
+  bottom: -80%;
+  right: -15%;
+}
+
+@media screen and (max-width: 375px) {
+  .bg-img-top {
+    top: -25%;
+    left: -55%;
+  }
+
+  .bg-img-bottom {
+    bottom: -20%;
+    right: -60%;
+  }
 }
 
 .card {
@@ -63,6 +71,12 @@ body {
   box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
   border-radius: 15px;
   position: relative;
+}
+
+@media screen and (max-width: 375px) {
+  .card {
+    width: 91%;
+  }
 }
 
 .card__bg-pattern {
