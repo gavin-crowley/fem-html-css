@@ -82,7 +82,7 @@ body {
 .card__bg-pattern {
   border-radius: 15px 15px 0 0;
 }
-
+/* 
 .card__avatar-img {
   position: absolute;
   width: 96px;
@@ -148,4 +148,4 @@ body {
 .card__stats-label {
   font-size: 0.625rem;
   color: var(--color-brand-dark-grayish-blue);
-}
+} */
